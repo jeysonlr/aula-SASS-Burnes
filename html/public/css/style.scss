@@ -1,0 +1,130 @@
+@import "variables";
+
+@mixin sombra($cor) {
+    padding: $padding;
+    box-shadow: 0 0 10px $cor;
+}
+
+@mixin bg {
+    background-color: $bg;
+    display: inline-block;
+    width: 100%;
+    padding: $padding;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+}
+
+body {
+    color: $text-color;
+}
+
+.header {
+    @include bg;
+    & &-menu {
+        @include sombra(#333);
+        text-decoration: none;
+        float: right;
+        margin: 20px;
+        display: none;
+        color: $text-color;
+    }
+    & &-nav {
+        float: right;
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                margin: 30px;
+                font-weight: 700;
+                a {
+                    text-decoration: none;
+                    color: $text-color;
+                    &:hover {
+                        color: $link-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    @include bg;
+    text-align: center;
+}
+
+.container {
+    width: $container;
+    margin: auto;
+}
+
+.main {
+    & &-center {
+        text-align: center;
+    }
+    & &-btn {
+        @include sombra(#ccc);
+        padding: $padding 30px;
+        text-decoration: none;
+        background-color: $bg;
+        color: $text-color;
+        border-radius: 5px;
+        margin: 30px;
+        display: inline-block;
+        transition: all 1s;
+        &:hover {
+            background-color: $link-color;
+            color: $bg;
+        }
+    }
+    & &-grid-destaques {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+        img {
+            width: 100%;
+        }
+        &-coluna {
+            text-align: center;
+            @include sombra(#ccc);
+            border-radius: 5px;
+            margin: 30px 10px;
+        }
+    }
+    & &-grid-veiculo {
+        display: grid;
+        grid-template-columns: 35% 75%;
+        .valor {
+            color: $link-color;
+            margin: 30px;
+        }
+        & .main-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 25%);
+            &-coluna {
+                border: 1px solid #ccc;
+                padding: $padding;
+                margin: $padding;
+            }
+        }
+    }
+    & &-foto {
+        border: 10x solid #ccc;
+        @include sombra(#ccc);
+        display: block;
+        margin: 20px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+p {
+    margin: $padding 0;
+}
+
+@import "media";
