@@ -5,7 +5,9 @@ header('Content-Type: text/html; charset=utf-8'); ?>
 
 <div class="main">
     <div class="main-grid-sobre-coluna">
-    <img src="imagens/logo.png" alt="logo"> <br><br><br>
-        <p><h3>Em breve novidades...</h3></p>
+        <img src="imagens/logo.png" alt="logo"> <br><br><br>
+        <p>
+        <h3>Em breve novidades...</h3>
+        </p>
     </div>
 </div>

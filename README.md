@@ -6,7 +6,7 @@
 ## Installation
 
 ```shell 
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 ## Ports from services Stack

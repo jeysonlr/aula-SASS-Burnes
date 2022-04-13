@@ -10,7 +10,7 @@ header('Content-Type: text/html; charset=utf-8'); ?>
     <div class="main-grid-veiculo-coluna">
         <h1 class="main-center">Renault Kwid</h1>
         <h2 class="main-center valor">R$ 55.000,00</h2>
-        
+
         <div class="main-grid">
             <div class="main-grid-coluna main-center">
                 <i class="fa-solid fa-calendar-days"></i>

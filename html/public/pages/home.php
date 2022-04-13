@@ -14,10 +14,10 @@ header('Content-Type: text/html; charset=utf-8'); ?>
         </p>
     </div>
     <div class="main-grid-destaques-coluna">
-        <img src="imagens/5.jpg" alt="Polo">
-        <h2>Volkswagen Polo</h2>
+        <img src="imagens/7.jpg" alt="Territory">
+        <h2>Ford Territory</h2>
         <p>
-            <a href="polo" title="Polo" class="main-btn">
+            <a href="territory" title="Territory" class="main-btn">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 Detalhes
             </a>

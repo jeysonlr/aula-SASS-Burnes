@@ -68,11 +68,11 @@
     <footer class="footer">
         <p>Desenvolvido por Jeyson Luiz Romualdo</p>
         <p>
-            <a href="https://www.linkedin.com/in/jeyson-luiz-romualdo-86992995" title="Linkedin">
+            <a href="https://www.linkedin.com/in/jeyson-luiz-romualdo-86992995" target="_blank" title="Linkedin">
                 <i class="fa-brands fa-linkedin">
                 </i>
             </a>
-            <a href="https://github.com/jeysonlr" title="Github">
+            <a href="https://github.com/jeysonlr" target="_blank" title="Github">
                 <i class="fa-brands fa-github">
                 </i>
             </a>

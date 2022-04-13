@@ -259,3 +259,10 @@ Xdebug: [Config] The setting 'xdebug.remote_host' has been renamed, see the upgr
 Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
 [Tue Apr 12 21:12:28.850154 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.3.8 configured -- resuming normal operations
 [Tue Apr 12 21:12:28.850594 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Apr 12 22:58:07.124234 2022] [mpm_prefork:notice] [pid 1] AH00169: caught SIGTERM, shutting down
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.20.0.2. Set the 'ServerName' directive globally to suppress this message
+Xdebug: [Config] The setting 'xdebug.remote_enable' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_enable (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Xdebug: [Config] The setting 'xdebug.remote_host' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_host (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+Xdebug: [Config] The setting 'xdebug.remote_port' has been renamed, see the upgrading guide at https://xdebug.org/docs/upgrade_guide#changed-xdebug.remote_port (See: https://xdebug.org/docs/errors#CFG-C-CHANGED)
+[Wed Apr 13 20:11:21.596584 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.3.8 configured -- resuming normal operations
+[Wed Apr 13 20:11:21.597012 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
