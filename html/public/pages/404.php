@@ -1,4 +1,5 @@
-<?php if ( !isset( $pagina ) ) exit; ?>
+<?php if ( !isset( $pagina ) ) exit;
+header('Content-Type: text/html; charset=utf-8'); ?>
 
 <h1 class="main-center">Ops! Página não encontrada!</h1>
 <p class="main-center">

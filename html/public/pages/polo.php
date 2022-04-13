@@ -3,22 +3,22 @@ header('Content-Type: text/html; charset=utf-8'); ?>
 
 <div class="main-grid-veiculo">
     <div class="main-grid-veiculo-coluna">
-        <a href="imagens/1.jpg" title="Kwid" data-lightbox="Kwid" class="main-foto">
-            <img src="imagens/1.jpg" alt="Kwid">
+        <a href="imagens/5.jpg" title="Polo" data-lightbox="Polo" class="main-foto">
+            <img src="imagens/5.jpg" alt="Polo">
         </a>
     </div>
     <div class="main-grid-veiculo-coluna">
-        <h1 class="main-center">Renault Kwid</h1>
-        <h2 class="main-center valor">R$ 55.000,00</h2>
-        
+        <h1 class="main-center">Volkswagen Polo</h1>
+        <h2 class="main-center valor">R$ 60.000,00</h2>
+
         <div class="main-grid">
             <div class="main-grid-coluna main-center">
                 <i class="fa-solid fa-calendar-days"></i>
-                <p>2019/2020</p>
+                <p>2020/2020</p>
             </div>
             <div class="main-grid-coluna main-center">
                 <i class="fa-solid fa-gauge"></i>
-                <p>30.000 KM</p>
+                <p>35.000 KM</p>
             </div>
             <div class="main-grid-coluna main-center">
                 <i class="fa-solid fa-gas-pump"></i>
@@ -26,7 +26,7 @@ header('Content-Type: text/html; charset=utf-8'); ?>
             </div>
             <div class="main-grid-coluna main-center">
                 <i class="fa-solid fa-swatchbook"></i>
-                <p>2019/2020</p>
+                <p>Cinza</p>
             </div>
         </div>
 

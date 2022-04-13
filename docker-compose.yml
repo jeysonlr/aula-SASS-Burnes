@@ -2,7 +2,6 @@ version: "3.7"
 
 services:
   apache2:
-    # image: cafeechopp/apache-php:v1.0
     build:
       context: .images/apache2
     container_name: apache-koala
@@ -20,5 +19,3 @@ services:
       
 networks:
   backend:
-
-

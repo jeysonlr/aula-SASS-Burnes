@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/lightbox.min.css">
 </head>
+
 <body>
     <header class="header">
         <a href="index.php" title="Home" class="header-logo">
@@ -46,23 +48,35 @@
             </ul>
         </nav>
     </header>
-
+    <div class="banner">
+        <img src="imagens/banner.jpg" alt="Banner">
+    </div> <br>
     <main class="main container">
         <?php
 
-            $pagina = $_GET["param"] ?? "home";
-            $pagina = "pages/{$pagina}.php";
+        $pagina = $_GET["param"] ?? "home";
+        $pagina = "pages/{$pagina}.php";
 
-            if ( file_exists( $pagina ) ) 
-                include $pagina;
-            else
-                include "pages/404.php";
+        if (file_exists($pagina))
+            include $pagina;
+        else
+            include "pages/404.php";
 
         ?>
     </main>
 
     <footer class="footer">
-        <p>Desenvolvido por Anderson Burnes</p>
+        <p>Desenvolvido por Jeyson Luiz Romualdo</p>
+        <p>
+            <a href="https://www.linkedin.com/in/jeyson-luiz-romualdo-86992995" title="Linkedin">
+                <i class="fa-brands fa-linkedin">
+                </i>
+            </a>
+            <a href="https://github.com/jeysonlr" title="Github">
+                <i class="fa-brands fa-github">
+                </i>
+            </a>
+        </p>
 
     </footer>
     <script src="js/jquery-3.6.0.min.js"></script>
@@ -73,4 +87,5 @@
         }
     </script>
 </body>
+
 </html>
